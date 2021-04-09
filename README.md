@@ -5,18 +5,18 @@ A library that can be used to convert your drawables into bitmap.
 
 1. Add it in your root build.gradle at the end of repositories:
 
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+	allprojects {<br>
+		repositories {<br>
+			...<br>
+			maven { url 'https://jitpack.io' }<br>
+		}<br>
+	}<br>
      
 2.  Add the dependency
 
-	dependencies {
-	        implementation 'com.github.prashant2917:drawable-to-bitmap:Tag'
-	}
+	dependencies {<br>
+	        implementation 'com.github.prashant2917:drawable-to-bitmap:Tag'<br>
+	}<br>
      
 3. Initialize the library using below code.<br>
      val drawableToBitmap = DrawableToBitmap.createInstance()
